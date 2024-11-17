@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PickFood</title>
+    <link rel="icon" type="image/png" href="slice of pizza_.png">
     <style>
         body {
             margin: 0;
@@ -83,6 +84,63 @@
             border-radius: 50%;
             object-fit: cover;
         }
+          /* Starters Section */
+          .starters {
+            background-color: #fff;
+            margin: 50px 0;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .starters h2 {
+            margin-top: 0;
+            font-size: 32px;
+            color: #8b5e3c;
+        }
+        .starter-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 20px 0;
+            border-bottom: 1px dotted #ccc;
+            padding-bottom: 10px;
+        }
+        .starter-item:last-child {
+            border-bottom: none;
+        }
+        
+        .starter-description {
+            flex: 1;
+        }
+        .starter-price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #8b5e3c;
+        }
+               /* Features Section */
+               .features {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            margin: 50px 0;
+            padding: 30px 0;
+        }
+        .feature {
+            flex: 1;
+        }
+        .feature img {
+            width: 200px;
+            margin-bottom: 50px;
+        }
+        .feature h3 {
+            margin: 10px 0;
+            font-size: 18px;
+            color: #8b5e3c;
+        }
+        .feature p {
+            font-size: 14px;
+            color: #555;
+        }
     </style>
 </head>
 <body>
@@ -110,11 +168,61 @@
         </div>
         <div class="images">
             <img src="Ellipse 2.jpg" alt="Pizza">
-            <img src="download.jpeg" alt="Pav Bhaji">
+            <img src="pav.jpg" alt="Pav Bhaji">
             <img src="noodles.jpg" alt="Noodles">
             <img src="Rectangle 4.png" alt="Dessert">
         </div>
     </main>
+    <div class="starters">
+      <h2>Starters</h2>
+      <div class="starter-item">
+          <div class="starter-description">
+              <strong>Grilled Okra and Tomatoes</strong>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="starter-price">$20</div>
+      </div>
+      <div class="starter-item">
+          <div class="starter-description">
+              <strong>Cucumber Salad</strong>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="starter-price">$18</div>
+      </div>
+      <div class="starter-item">
+          <div class="starter-description">
+              <strong>Basil Pancakes</strong>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="starter-price">$12</div>
+      </div>
+  </div>
+
+  <!-- Chef Section -->
+  <div class="chef-section">
+      </div>
+      <div class="chef-content">
+      </div>
+  </div>
+   <!-- Features Section -->
+   <div class="features">
+    <div class="feature">
+        <img src="premium quality.jpg" alt="Premium Quality">
+        <h3>Premium Quality</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="feature">
+        <img src="seasonal veg.jpg" alt="Seasonal Vegetables">
+        <h3>Seasonal Vegetables</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="feature">
+        <img src="fruits.jpg" alt="Fresh Fruit">
+        <h3>Fresh Fruit</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    
+    
 </body>
 </html>
 
