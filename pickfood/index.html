@@ -56,19 +56,26 @@
             width: 15px;
         }
         main {
-            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             padding: 50px 20px;
         }
-        main h1 {
+        .text-content {
+            max-width: 50%;
+            text-align: left;
+        }
+        .text-content h1 {
             color: #8b5e3c;
             font-size: 40px;
+            line-height: 1.5;
         }
         .images {
             display: flex;
-            justify-content: center;
-            gap: 20px;
             flex-wrap: wrap;
-            margin-top: 30px;
+            gap: 20px;
+            justify-content: flex-end;
+            max-width: 50%;
         }
         .images img {
             width: 150px;
@@ -81,7 +88,7 @@
 <body>
     <header>
         <div class="logo">
-            <img src="https://via.placeholder.com/30" alt="Logo">
+            <img src="slice of pizza_.png" alt="Logo">
             <span>PickFood</span>
         </div>
         <nav>
@@ -93,18 +100,21 @@
         <div class="search-bar">
             <input type="text" placeholder="search">
             <button>
-                <img src="https://via.placeholder.com/15" alt="Search">
+                <img src="slice of pizza_.png" alt="Search">
             </button>
         </div>
     </header>
     <main>
-        <h1 style="text-align:left;"></h1>"No wait for<br> sakkath taste!!</h1>
+        <div class="text-content">
+            <h1>No wait for<br> sakkath taste!!</h1>
+        </div>
         <div class="images">
-            <img src="https://via.placeholder.com/150" alt="Pizza">
+            <img src="Ellipse 2.jpg" alt="Pizza">
             <img src="https://via.placeholder.com/150" alt="Pav Bhaji">
-            <img src="https://via.placeholder.com/150" alt="Noodles">
-            <img src="https://via.placeholder.com/150" alt="Dessert">
+            <img src="noodles.jpg" alt="Noodles">
+            <img src="Rectangle 4.png" alt="Dessert">
         </div>
     </main>
 </body>
 </html>
+
